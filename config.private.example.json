@@ -1,0 +1,28 @@
+{
+  "aliyun": {
+    "access_key_id": "YOUR_ACCESS_KEY_ID",
+    "access_key_secret": "YOUR_ACCESS_KEY_SECRET",
+    "oss": {
+      "bucket_name": "YOUR_BUCKET_NAME",
+      "endpoint": "oss-cn-chengdu.aliyuncs.com",
+      "region": "cn-chengdu",
+      "image_prefix": "images/"
+    },
+    "fc": {
+      "get_images_url": "https://YOUR_GET_IMAGES.fcapp.run",
+      "upload_image_url": "https://YOUR_UPLOAD_IMAGE.fcapp.run",
+      "update_metadata_url": "https://YOUR_UPDATE_METADATA.fcapp.run"
+    }
+  },
+  "image": {
+    "thumbnail_size": [360, 360],
+    "quality": 90,
+    "formats": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"],
+    "oss_process_params": "image/resize,w_360,h_360,m_fill/quality,q_90"
+  },
+  "metadata": {
+    "auto_extract_exif": true,
+    "auto_extract_gps": true,
+    "default_note": ""
+  }
+}

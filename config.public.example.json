@@ -1,0 +1,10 @@
+{
+  "aliyun": {
+    "fc": {
+      "get_images_url": "https://YOUR_GET_IMAGES.fcapp.run",
+      "upload_image_url": "https://YOUR_UPLOAD_IMAGE.fcapp.run",
+      "update_metadata_url": "https://YOUR_UPDATE_METADATA.fcapp.run",
+      "get_upload_url_url": "https://YOUR_GET_UPLOAD_URL.fcapp.run"
+    }
+  }
+}

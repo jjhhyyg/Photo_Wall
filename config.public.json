@@ -1,0 +1,10 @@
+{
+  "aliyun": {
+    "fc": {
+      "get_images_url": "https://get-images-dwohpntapb.cn-chengdu.fcapp.run",
+      "upload_image_url": "https://upload-image-ekjazpnfbt.cn-chengdu.fcapp.run",
+      "update_metadata_url": "https://update-metadata-ldunotkutk.cn-chengdu.fcapp.run",
+      "get_upload_url_url": "https://get-upload-url-hbuzjpjmqw.cn-chengdu.fcapp.run"
+    }
+  }
+}
